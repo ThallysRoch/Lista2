@@ -85,18 +85,22 @@
         read -p "Digite o nome de 4 arquivos: " a b c d
         
         if [ ! -e ${a} ];then
+            echo "O arquivo ${a} não existe"
             exit 1
         fi
         
          if [ ! -e ${b} ];then
+            echo "O arquivo ${b} não existe"
             exit 1
         fi
         
          if [ ! -e ${c} ];then
+            echo "O arquivo ${c} não existe"
             exit 1
         fi
         
          if [ ! -e ${d} ];then
+            echo "O arquivo ${d} não existe"
             exit 1
         fi
         
